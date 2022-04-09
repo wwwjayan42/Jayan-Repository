@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Template/img/DJimage.jpg);
+    background-size:330px;
+}
+
+.container{
+    top: 55%;
+    left: 51%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    border-radius: 10px;
+    padding: 60px 40px 50px 40px;
+    background: rgb(50,50,50)
+}
+
+#name{
+    width: 200px;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 6px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: dodgerblue;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+}
+
+#button:hover{
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
+
+a{
+    font-size: 13px;
+}
+
+img{
+    border-radius: 50%;
+    position: absolute;
+    margin: 110px;
+    margin-top: -15%;
+}
